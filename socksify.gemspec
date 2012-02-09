@@ -3,13 +3,13 @@
 require 'rubygems'
 
 spec = Gem::Specification.new do |s|
-  s.name = 'socksify-a'
-  s.version = "1.1.2"
-  s.summary = "Redirect all TCPSockets through a SOCKS 4a/5 proxy"
-  s.author = "Andrey Kouznetsov"
-  s.email = "smixok@gmail.com"
-  s.homepage = "http://smix.name"
-  # s.rubyforge_project = 'socksify-a'
+  s.name = 'socksify'
+  s.version = "1.4.1"
+  s.summary = "Redirect all TCPSockets through a SOCKS5 proxy"
+  s.authors = ["Stephan Maka", "Andrey Kouznetsov", "Christopher Thorpe", "Musy Bite", "Yuichi Tateno"]
+  s.email = "stephan@spaceboyz.net"
+  s.homepage = "http://socksify.rubyforge.org/"
+  s.rubyforge_project = 'socksify'
   s.files = %w{COPYING}
   s.files += Dir.glob("lib/**/*")
   s.files += Dir.glob("bin/**/*")

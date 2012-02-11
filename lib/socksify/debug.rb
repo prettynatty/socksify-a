@@ -23,6 +23,10 @@ module Socksify
     def to_s
       "\e[1m\e[#{num}m"
     end
+    
+    def num
+      30
+    end
   end
 
   def self.debug=(enabled)
